@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"external interrupt  control teh led\startup_stm32f103xb.o"
+"external interrupt  control teh led\main.o"
+"external interrupt  control teh led\gpio.o"
+"external interrupt  control teh led\stm32f1xx_it.o"
+"external interrupt  control teh led\stm32f1xx_hal_msp.o"
+"external interrupt  control teh led\stm32f1xx_hal_gpio_ex.o"
+"external interrupt  control teh led\stm32f1xx_hal.o"
+"external interrupt  control teh led\stm32f1xx_hal_rcc.o"
+"external interrupt  control teh led\stm32f1xx_hal_rcc_ex.o"
+"external interrupt  control teh led\stm32f1xx_hal_gpio.o"
+"external interrupt  control teh led\stm32f1xx_hal_dma.o"
+"external interrupt  control teh led\stm32f1xx_hal_cortex.o"
+"external interrupt  control teh led\stm32f1xx_hal_pwr.o"
+"external interrupt  control teh led\stm32f1xx_hal_flash.o"
+"external interrupt  control teh led\stm32f1xx_hal_flash_ex.o"
+"external interrupt  control teh led\stm32f1xx_hal_exti.o"
+"external interrupt  control teh led\system_stm32f1xx.o"
+--strict --scatter "external interrupt  control teh LED\external interrupt  control teh LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "external interrupt  control teh LED.map" -o "external interrupt  control teh LED\external interrupt  control teh LED.axf"
