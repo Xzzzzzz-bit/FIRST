@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"delay control the led\startup_stm32f103xb.o"
+"delay control the led\main.o"
+"delay control the led\gpio.o"
+"delay control the led\stm32f1xx_it.o"
+"delay control the led\stm32f1xx_hal_msp.o"
+"delay control the led\stm32f1xx_hal_gpio_ex.o"
+"delay control the led\stm32f1xx_hal.o"
+"delay control the led\stm32f1xx_hal_rcc.o"
+"delay control the led\stm32f1xx_hal_rcc_ex.o"
+"delay control the led\stm32f1xx_hal_gpio.o"
+"delay control the led\stm32f1xx_hal_dma.o"
+"delay control the led\stm32f1xx_hal_cortex.o"
+"delay control the led\stm32f1xx_hal_pwr.o"
+"delay control the led\stm32f1xx_hal_flash.o"
+"delay control the led\stm32f1xx_hal_flash_ex.o"
+"delay control the led\stm32f1xx_hal_exti.o"
+"delay control the led\system_stm32f1xx.o"
+--strict --scatter "Delay control the LED\Delay control the LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Delay control the LED.map" -o "Delay control the LED\Delay control the LED.axf"
